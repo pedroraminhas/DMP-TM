@@ -1,0 +1,31 @@
+
+31292	2531
+10.210005	0.000000
+Time = 10.210005
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428157 
+	HTM commits: 7931160 
+	SGL Commits: 3852
+	STM commits: 15493145 
+Total aborts: 95832789
+	HTM conficts: 23929112
+	Capacity aborts: 2115515
+	User aborts: 4890
+	Non-transactional aborts: 5725711
+	Other aborts: 828
+	STM aborts: 69782444
+STM System Calls: 18925
+HTM System Calls: 400
+tx 0 (0):	0
+tx 1 (1):	19253
+tx 2 (1):	72
+tx 3 (0):	0
+tx 4 (0):	0

@@ -1,0 +1,19 @@
+summary	8.902092	0.000000
+NOREC system shutdown:
+  Starts=1461053 Aborts=0
+  Overflows: R=0 W=0 L=0
+Total commits: 2489218
+	HTM commits: 1028165
+	STM commits: 1461053
+Total aborts: 1461073
+	HTM conflict aborts: 9
+		HTM trans conflicts: 0
+		HTM non-trans conflicts: 0
+		HTM self conflicts: 0
+	HTM capacity aborts: 1461053
+	HTM persistent aborts: 1461053
+	HTM user aborts: 2
+	HTM other aborts: 9
+	STM aborts: 0
+Time = 8.902092
+Energy = 0.000000

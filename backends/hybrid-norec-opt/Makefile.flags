@@ -1,0 +1,5 @@
+CFLAGS   += -w $(HTM_RETRIES) $(RETRY_POLICY)
+
+CPPFLAGS := $(CFLAGS)
+LIBS     += $(CFLAGS) -I/home/shady/lib/boost/include -L/home/shady/lib/ -I ../../../stms/norec-p8/ -lrt -lm -L../../../stms/norec-p8/ -lnorec -ltcmalloc -lpthread
+LDFLAGS  += $(LIBS)

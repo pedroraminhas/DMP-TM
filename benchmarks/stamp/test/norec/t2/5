@@ -1,0 +1,8 @@
+Maze dimensions = 512 x 512 x 7
+Paths to route  = 512
+Paths routed    = 512
+Elapsed time    = 39.486609 seconds
+Verification passed.
+NOREC system shutdown:
+  Starts=1048 Aborts=20
+  Overflows: R=0 W=0 L=0

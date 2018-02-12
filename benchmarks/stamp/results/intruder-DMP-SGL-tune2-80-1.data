@@ -1,0 +1,31 @@
+
+358	2
+38.970266	0.000000
+Time = 38.970266
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428205 
+	HTM commits: 15985218 
+	SGL Commits: 15066
+	STM commits: 7427921 
+Total aborts: 79370966
+	HTM conficts: 6880293
+	Capacity aborts: 35187158
+	User aborts: 1176384
+	Non-transactional aborts: 1755476
+	Other aborts: 217
+	STM aborts: 36126914
+STM System Calls: 711653
+HTM System Calls: 660745
+tx 0 (0):	0
+tx 1 (1):	712183
+tx 2 (0):	660215
+tx 3 (0):	0
+tx 4 (0):	0

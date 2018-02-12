@@ -1,0 +1,36 @@
+Loading 1 warehouses... num items: 1000001001 ms
+Running with the following parameters for 10 secs: (max warehouses 1)
+	Warehouses     (-w): 1
+	StockLevel ratio   (-s): 4
+	Delivery ratio     (-d): 0
+	Order Status ratio (-o): 4
+	Payment ratio      (-p): 92
+	NewOrder ratio     (-r): 0
+Running... 
+Executed the following txs types:
+	StockLevel : 0.04	72332
+	Delivery   : 0.00	0
+	OrderStatus: 0.04	71500
+	Payment    : 0.92	1673530
+	NewOrder   : 0.00	0
+1817362 transactions in 10001 ms = 181724.82 txns/s
+Time Elapsed: 10.001
+Throughput: 181724.82
+Txs: 1817362
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 1817363
+	HTM commits: 1722280
+	SGL commits: 95083
+Total aborts: 10973304
+	Capacity aborts: 8826344
+	Conflicts: 2136312
+	User aborts: 10608
+	Non-transactional aborts: 670148
+	Other aborts: 40

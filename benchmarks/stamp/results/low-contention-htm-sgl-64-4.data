@@ -1,0 +1,20 @@
+28.202069	0.000000
+Time = 28.202069
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 4194304
+	HTM commits: 2021
+	SGL commits: 4192283
+Total aborts: 419334214
+	Capacity aborts: 299453051
+	Conflicts: 116835035
+	User aborts: 3046046
+	Non-transactional aborts: 116834695
+	Other aborts: 82

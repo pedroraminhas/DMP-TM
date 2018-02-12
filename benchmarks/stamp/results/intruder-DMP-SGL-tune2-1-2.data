@@ -1,0 +1,31 @@
+
+6563	23510
+46.443287	0.000000
+Time = 46.443287
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428126 
+	HTM commits: 19242463 
+	SGL Commits: 4173591
+	STM commits: 12072 
+Total aborts: 43100963
+	HTM conficts: 1176
+	Capacity aborts: 43099213
+	User aborts: 97
+	Non-transactional aborts: 5
+	Other aborts: 477
+	STM aborts: 0
+STM System Calls: 99
+HTM System Calls: 52
+tx 0 (0):	0
+tx 1 (0):	138
+tx 2 (0):	13
+tx 3 (0):	0
+tx 4 (0):	0

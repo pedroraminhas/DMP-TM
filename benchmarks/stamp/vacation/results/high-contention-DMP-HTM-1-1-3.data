@@ -1,0 +1,28 @@
+HTM heap: 69711897427968:70367257427968
+num elements: 81920000000
+memory per thread: 81920000000
+HTM first page: 69711897427968
+71.544757	0.000000
+Time = 71.544757
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 4194304 
+	HTM commits: 55923 
+	SGL Commits: 363477
+	STM commits: 3774904 
+Total aborts: 3963786
+	HTM conficts: 2342300
+	Capacity aborts: 1621422
+	User aborts: 2
+	Non-transactional aborts: 741
+	Other aborts: 62
+	STM aborts: 0
+STM System Calls: 2158988
+HTM System Calls: 2341556

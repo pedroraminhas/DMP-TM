@@ -1,0 +1,21 @@
+10.665711	0.000000
+Time = 10.665711
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 4194304
+	HTM commits: 831
+	SGL commits: 0
+	STM commits: 4193473
+Total Aborts: 419382338
+	HTM conflicts: 14341535
+	HTM capacity aborts: 3633082
+	HTM user aborts: 401407216
+	HTM other aborts: 483
+	STM Aborts: 22

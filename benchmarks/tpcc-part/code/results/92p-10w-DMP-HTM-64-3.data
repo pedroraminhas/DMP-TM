@@ -1,0 +1,44 @@
+HTM heap: 69711316320256:70366676320256
+num elements: 81920000000
+memory per thread: 1280000000
+HTM first page: 69711316320256
+Loading 10 warehouses... num items: 1000009619 ms
+Running with the following parameters for 10 secs: (max warehouses 10)
+	Warehouses     (-w): 10
+	StockLevel ratio   (-s): 4
+	Delivery ratio     (-d): 0
+	Order Status ratio (-o): 4
+	Payment ratio      (-p): 92
+	NewOrder ratio     (-r): 0
+Running... 
+Executed the following txs types:
+	StockLevel : 0.04	219556
+	Delivery   : 0.00	0
+	OrderStatus: 0.04	219941
+	Payment    : 0.92	5048251
+	NewOrder   : 0.00	0
+5487748 transactions in 10005 ms = 548517.55 txns/s
+Time Elapsed: 10.005
+Throughput: 548517.55
+Txs: 5487748
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 5487749 
+	HTM commits: 5047747 
+	SGL Commits: 505
+	STM commits: 439497 
+Total aborts: 1045190
+	HTM conficts: 1044561
+	Capacity aborts: 251
+	User aborts: 378
+	Non-transactional aborts: 46466
+	Other aborts: 0
+	STM aborts: 0
+STM System Calls: 0
+HTM System Calls: 3374

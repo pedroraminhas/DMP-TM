@@ -1,0 +1,31 @@
+
+27637	43723
+19.897768	0.000000
+Time = 19.897768
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428133 
+	HTM commits: 19347542 
+	SGL Commits: 4030091
+	STM commits: 50500 
+Total aborts: 51074107
+	HTM conficts: 28215135
+	Capacity aborts: 22416652
+	User aborts: 433160
+	Non-transactional aborts: 23328697
+	Other aborts: 601
+	STM aborts: 8559
+STM System Calls: 578
+HTM System Calls: 308
+tx 0 (0):	0
+tx 1 (0):	820
+tx 2 (0):	66
+tx 3 (0):	0
+tx 4 (0):	0

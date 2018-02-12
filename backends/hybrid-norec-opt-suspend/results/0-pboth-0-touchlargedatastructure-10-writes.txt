@@ -1,0 +1,132 @@
+1 threads
+time elapsed: 0.007781
+Throughput: 1285181.875000
+Total number of commits: 19005
+Number of aborts: 0
+time elapsed: 0.004782
+Throughput: 2091175.250000
+Total number of commits: 19016
+Number of aborts: 0
+time elapsed: 0.007161
+Throughput: 1396453.000000
+Total number of commits: 18972
+Number of aborts: 0
+time elapsed: 0.004910
+Throughput: 2036659.875000
+Total number of commits: 18981
+Number of aborts: 0
+time elapsed: 0.007452
+Throughput: 1341921.625000
+Total number of commits: 18977
+Number of aborts: 0
+-----------
+4 threads
+time elapsed: 0.002199
+Throughput: 4547521.500000
+Total number of commits: 18967
+Number of aborts: 792
+time elapsed: 0.002380
+Throughput: 4201680.500000
+Total number of commits: 18969
+Number of aborts: 916
+time elapsed: 0.002348
+Throughput: 4258944.000000
+Total number of commits: 18998
+Number of aborts: 1016
+time elapsed: 0.003046
+Throughput: 3282994.250000
+Total number of commits: 18993
+Number of aborts: 1005
+time elapsed: 0.002265
+Throughput: 4415011.000000
+Total number of commits: 19011
+Number of aborts: 843
+-----------
+10 threads
+time elapsed: 0.001667
+Throughput: 5998800.000000
+Total number of commits: 18963
+Number of aborts: 1826
+time elapsed: 0.001887
+Throughput: 5299417.000000
+Total number of commits: 18965
+Number of aborts: 1565
+time elapsed: 0.002188
+Throughput: 4570384.000000
+Total number of commits: 18986
+Number of aborts: 1352
+time elapsed: 0.002252
+Throughput: 4440497.500000
+Total number of commits: 19010
+Number of aborts: 1538
+time elapsed: 0.002300
+Throughput: 4347826.000000
+Total number of commits: 19036
+Number of aborts: 1384
+-----------
+20 threads
+time elapsed: 0.002351
+Throughput: 4253509.000000
+Total number of commits: 18968
+Number of aborts: 1163
+time elapsed: 0.002570
+Throughput: 3891050.500000
+Total number of commits: 18938
+Number of aborts: 858
+time elapsed: 0.002324
+Throughput: 4302926.000000
+Total number of commits: 19004
+Number of aborts: 746
+time elapsed: 0.002658
+Throughput: 3762227.250000
+Total number of commits: 18960
+Number of aborts: 1546
+time elapsed: 0.002335
+Throughput: 4282655.000000
+Total number of commits: 19021
+Number of aborts: 1923
+-----------
+40 threads
+time elapsed: 0.002628
+Throughput: 3805175.000000
+Total number of commits: 18977
+Number of aborts: 608
+time elapsed: 0.003256
+Throughput: 3071253.000000
+Total number of commits: 18920
+Number of aborts: 257
+time elapsed: 0.003505
+Throughput: 2853067.000000
+Total number of commits: 18994
+Number of aborts: 450
+time elapsed: 0.003223
+Throughput: 3102699.250000
+Total number of commits: 18974
+Number of aborts: 1718
+time elapsed: 0.002872
+Throughput: 3481894.250000
+Total number of commits: 19037
+Number of aborts: 1893
+-----------
+80 threads
+time elapsed: 0.004564
+Throughput: 2191060.500000
+Total number of commits: 19041
+Number of aborts: 169
+time elapsed: 0.004931
+Throughput: 2027986.125000
+Total number of commits: 18757
+Number of aborts: 144
+time elapsed: 0.004357
+Throughput: 2295157.250000
+Total number of commits: 19033
+Number of aborts: 91
+time elapsed: 0.005308
+Throughput: 1883948.750000
+Total number of commits: 19019
+Number of aborts: 530
+time elapsed: 0.005799
+Throughput: 1724435.250000
+Total number of commits: 19119
+Number of aborts: 1907
+-----------

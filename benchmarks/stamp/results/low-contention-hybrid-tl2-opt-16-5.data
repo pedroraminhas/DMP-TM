@@ -1,0 +1,28 @@
+TL2 system ready: GV=GV6
+17.549255	0.000000
+Time = 17.549255
+Energy = 0.000000
+TL2 system shutdown:
+  GCLOCK=0x100180269E8 Starts=4283792 Aborts=54796
+  Overflows: R=0 W=0 L=0
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 4194304 
+	HTM commits: 20104 
+	SGL Commits: 0
+	STM commits: 4174200 
+Total aborts: 418120642
+	HTM conficts: 245324500
+	Capacity aborts: 171909138
+	User aborts: 829874
+	Non-transactional aborts: 23896939
+	Other aborts: 2334
+	STM aborts: 54796
+STM System Calls: 0
+HTM System Calls: 0

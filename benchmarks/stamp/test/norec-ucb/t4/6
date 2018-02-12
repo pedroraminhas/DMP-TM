@@ -1,0 +1,37 @@
+summary	6.164267	0.000000
+Energy = 0.000000
+
+Time taken for all is  6.164267 sec.
+
+NOREC system shutdown:
+  Starts=1 Aborts=0
+  Overflows: R=0 W=0 L=0
+Total commits: 22362287
+	Read commits: 0
+	HTM commits:  7
+	ROT commits:  22362023
+	STM commits: 1
+	GL commits: 256
+Total aborts: 4535
+	HTM conflict aborts:  0
+		HTM self aborts:  0
+		HTM trans aborts:  0
+		HTM non-trans aborts:  0
+	HTM user aborts :  0
+	HTM capacity aborts:  0
+		HTM persistent aborts:  0
+	HTM other aborts:  0
+	ROT conflict aborts:  4006
+		ROT self aborts:  0
+		ROT trans aborts:  21
+		ROT non-trans aborts:  3638
+	ROT user aborts:  3
+	ROT capacity aborts:  1
+		ROT persistent aborts:  1
+	ROT other aborts:  525
+	STM aborts: 0
+lever 0: 55
+lever 1: 54
+lever 2: 5606
+lever 3: 57
+lever 4: 53

@@ -1,0 +1,43 @@
+Loading 10 warehouses... num items: 1000008948 ms
+Running with the following parameters for 10 secs: (max warehouses 10)
+	Warehouses     (-w): 10
+	StockLevel ratio   (-s): 4
+	Delivery ratio     (-d): 0
+	Order Status ratio (-o): 4
+	Payment ratio      (-p): 92
+	NewOrder ratio     (-r): 0
+Running... 
+Executed the following txs types:
+	StockLevel : 0.03	2094
+	Delivery   : 0.00	0
+	OrderStatus: 0.04	2197
+	Payment    : 0.93	55884
+	NewOrder   : 0.00	0
+60175 transactions in 10145 ms = 5931.37 txns/s
+Time Elapsed: 10.145
+Throughput: 5931.37
+Txs: 60175
+NOREC system shutdown:
+  Starts=4179 Aborts=2
+  Overflows: R=3561412 W=0 L=0
+htm_commits: 830htm_commits: 5427135621711794255htm_commits: 232htm_commits: 5425476346996326420htm_commits: 426htm_commits: 5424275723248467968htm_commits: 74htm_commits: 393htm_commits: 2005htm_commits: 74htm_commits: 127htm_commits: 1810htm_commits: 4241htm_commits: 74htm_commits: 611htm_commits: 74htm_commits: 160htm_commits: 74htm_commits: 74htm_commits: 160htm_commits: 256htm_commits: 74htm_commits: 842htm_commits: 129htm_commits: 160htm_commits: 73htm_commits: 160htm_commits: 74htm_commits: 74htm_commits: 2491htm_commits: 4667htm_commits: 73htm_commits: 130htm_commits: 4978htm_commits: 73htm_commits: 256htm_commits: 74htm_commits: 74htm_commits: 841htm_commits: 232htm_commits: 232htm_commits: 161htm_commits: 831htm_commits: 4057htm_commits: 822htm_commits: 346htm_commits: 272htm_commits: 693htm_commits: 74htm_commits: 4440htm_commits: 1018htm_commits: 165htm_commits: 74htm_commits: 74htm_commits: 74htm_commits: 74htm_commits: 74htm_commits: 161htm_commits: 130htm_commits: 74htm_commits: 130htm_commits: 4537htm_commits: 256htm_commits: 130htm_commits: 74htm_commits: 74htm_commits: 427htm_commits: 271htm_commits: 74htm_commits: 74htm_commits: 74htm_commits: 164htm_commits: 232htm_commits: 718htm_commits: 843htm_commits: 74htm_commits: 73htm_commits: 130htm_commits: 802htm_commits: 130htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0htm_commits: 0Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 16286606017536458752
+	HTM insert: 0
+	STM inser: 16286606017536458752
+	STM small insert: 0
+Total commits: 4178 
+	HTM commits: 0 
+	SGL Commits: 0
+	STM commits: 4178 
+Total aborts: 230889
+	HTM conficts: 13266
+	Capacity aborts: 217611
+	User aborts: 9
+	Non-transactional aborts: 1350
+	Other aborts: 1
+	STM aborts: 2
+System Calls: 0
+STM System Calls: 0

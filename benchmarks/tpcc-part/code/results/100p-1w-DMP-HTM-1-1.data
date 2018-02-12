@@ -1,0 +1,13 @@
+HTM heap: 69711110733824:70366470733824
+num elements: 81920000000
+memory per thread: 81920000000
+HTM first page: 69711110733824
+Loading 1 warehouses... num items: 1000001043 ms
+Running with the following parameters for 30 secs: (max warehouses 1)
+	Warehouses     (-w): 1
+	StockLevel ratio   (-s): 0
+	Delivery ratio     (-d): 0
+	Order Status ratio (-o): 0
+	Payment ratio      (-p): 100
+	NewOrder ratio     (-r): 0
+Running... 

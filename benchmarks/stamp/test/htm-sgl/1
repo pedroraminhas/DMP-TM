@@ -1,0 +1,15 @@
+summary	13.298982	0.000000
+Total commits: 2489218
+	HTM commits: 1030028
+	GL commits: 1459190
+Total aborts: 1459221
+	HTM conflict aborts: 19
+		HTM trans conflicts: 0
+		HTM non-trans conflicts: 1
+		HTM self conflicts: 0
+	HTM capacity aborts: 1459190
+	HTM persistent aborts: 1459190
+	HTM user aborts: 3
+	HTM other aborts: 9
+Time = 13.298982
+Energy = 0.000000

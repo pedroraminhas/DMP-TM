@@ -1,0 +1,42 @@
+memory per thread is 5120000000 out of 81920000000
+page size is: 65536
+Loading 10 warehouses... num items: 1000008963 ms
+Running with the following parameters for 10 secs: (max warehouses 10)
+	Warehouses     (-w): 10
+	StockLevel ratio   (-s): 6
+	Delivery ratio     (-d): 12
+	Order Status ratio (-o): 0
+	Payment ratio      (-p): 68
+	NewOrder ratio     (-r): 14
+Running... 
+Executed the following txs types:
+	StockLevel : 0.06	150192
+	Delivery   : 0.12	297024
+	OrderStatus: 0.00	0
+	Payment    : 0.68	1698807
+	NewOrder   : 0.14	345243
+2491266 transactions in 10002 ms = 249080.45 txns/s
+Time Elapsed: 10.002
+Throughput: 249080.45
+Txs: 2491266
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 2491267 
+	HTM commits: 0 
+	SGL Commits: 0
+	STM commits: 2491267 
+Total aborts: 1521236
+	HTM conficts: 0
+	Capacity aborts: 0
+	User aborts: 0
+	Non-transactional aborts: 0
+	Other aborts: 0
+	STM aborts: 1521236
+STM System Calls: 0
+HTM System Calls: 0

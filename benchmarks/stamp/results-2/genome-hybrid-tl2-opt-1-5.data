@@ -1,0 +1,29 @@
+TL2 system ready: GV=GV6
+memory per thread is 245760000000 out of 245760000000 for 1 threads
+summary	108.631781	0.000000
+TL2 system shutdown:
+  GCLOCK=0x13C9CE Starts=1235419 Aborts=30734
+  Overflows: R=8147 W=0 L=0
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 20623809 
+	HTM commits: 19449858 
+	SGL Commits: 0
+	STM commits: 1173951 
+Total aborts: 11770334
+	HTM conficts: 46
+	Capacity aborts: 11739079
+	User aborts: 3
+	Non-transactional aborts: 3
+	Other aborts: 472
+	STM aborts: 30734
+STM System Calls: 0
+HTM System Calls: 0
+Time = 108.631781
+Energy = 0.000000

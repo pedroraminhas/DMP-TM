@@ -1,0 +1,31 @@
+
+27506	41017
+20.075516	0.000000
+Time = 20.075516
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428133 
+	HTM commits: 19098935 
+	SGL Commits: 4285587
+	STM commits: 43611 
+Total aborts: 53493588
+	HTM conficts: 29156424
+	Capacity aborts: 23855479
+	User aborts: 473431
+	Non-transactional aborts: 24579180
+	Other aborts: 389
+	STM aborts: 7865
+STM System Calls: 315
+HTM System Calls: 175
+tx 0 (0):	0
+tx 1 (0):	447
+tx 2 (0):	43
+tx 3 (0):	0
+tx 4 (0):	0

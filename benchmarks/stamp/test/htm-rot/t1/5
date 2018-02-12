@@ -1,0 +1,27 @@
+Maze dimensions = 512 x 512 x 7
+Paths to route  = 512
+Paths routed    = 512
+Elapsed time    = 52.535084 seconds
+Verification passed.
+Total commits: 1026
+	Read commits: 0
+	HTM commits:  514
+	ROT commits:  0
+	GL commits: 512
+Total aborts: 1083
+	HTM conflict aborts:  0
+		HTM self aborts:  0
+		HTM trans aborts:  0
+		HTM non-trans aborts:  0
+	HTM user aborts :  54
+	HTM capacity aborts:  512
+		HTM persistent aborts:  512
+	HTM other aborts:  0
+	ROT conflict aborts:  0
+		ROT self aborts:  0
+		ROT trans aborts:  0
+		ROT non-trans aborts:  0
+	ROT user aborts:  0
+	ROT capacity aborts:  511
+		ROT persistent aborts:  511
+	ROT other aborts:  6

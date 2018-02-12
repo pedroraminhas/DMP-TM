@@ -1,0 +1,26 @@
+NUM_ARRAY : 81920000000
+pointers initialized
+2.395380	0.000000
+Time = 2.395380
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 4194304 
+	HTM commits: 0 
+	SGL Commits: 966
+	STM commits: 4193338 
+Total aborts: 149326
+	HTM conficts: 6780
+	Capacity aborts: 2553
+	User aborts: 327
+	Non-transactional aborts: 6549
+	Other aborts: 5
+	STM aborts: 139661
+System Calls: 232
+STM System Calls: 231

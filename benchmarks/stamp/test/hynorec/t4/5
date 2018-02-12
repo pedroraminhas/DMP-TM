@@ -1,0 +1,21 @@
+Maze dimensions = 512 x 512 x 7
+Paths to route  = 512
+Paths routed    = 512
+Elapsed time    = 32.512809 seconds
+Verification passed.
+NOREC system shutdown:
+  Starts=553 Aborts=41
+  Overflows: R=0 W=0 L=0
+Total commits: 1032
+	HTM commits: 520
+	STM commits: 512
+Total aborts: 683
+	HTM conflict aborts: 0
+		HTM trans conflicts: 0
+		HTM non-trans conflicts: 0
+		HTM self conflicts: 0
+	HTM capacity aborts: 512
+	HTM persistent aborts: 512
+	HTM user aborts: 130
+	HTM other aborts: 0
+STM aborts: 41

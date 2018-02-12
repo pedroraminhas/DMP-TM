@@ -1,0 +1,70 @@
+## Framework with a variety of TM implementations and benchmarks ##
+
+**Requirements:**
+
+* Install: tcmalloc (needed for all backends) and libevent (needed for memcached)
+
+* Compile: each stm (within "stms") and the rapl library (within "rapl-power")
+
+
+**Backends:**
+
+* sgl: synchronized with a single global lock
+
+* htm-sgl: Intel RTM used with a single global lock fallback
+
+* stm-norec: NOrec STM, which uses a single global lock
+
+* hybrid-norec: Intel RTM hybridized with NOrec STM (variants "opt" and "ptr" that respectively use the dual paths instrumented int he application or pointer-based instrumentation to deal with the two modes of execution)
+
+* stm-tl2: TL2 STM, using fine-grained locks, write back and commit time locking, and the GV6 global clock scheme
+
+* hybrid-tl2: Intel RTM hybridized with TL2 STM (variants "opt" and "ptr")
+
+* stm-swisstm: SwissTM STM using encounter time locking for writes and commit time locking for reads, with write back
+
+* stm-tinystm: TinySTM with commit time locking and write back
+
+
+**Benchmarks:**
+
+* STAMP suite (genome, labyrinth, intruder, vacation, yada, kmeans, ssca2)
+
+* Concurrent data-structures (linked-list, skip-list, red-black tree, hash map)
+
+* STMBench7 (not yet available to "opt" hybrid backends)
+
+* Memcached (not yet available)
+
+
+**Upon cloning the repository, make sure everything is bootstrapped:**
+
+* compile the rapl-power library
+
+* compile each STM under the "stms" folder
+
+* each of the above requires only a "make" command within the folder
+
+
+To compile the benchmarks, use the "build-all.sh" script or the specialized script under each benchmarks folder. 
+These scripts expect three parameters (in this order):
+
+1. the backend name, corresponding to the folder under "backends"
+
+2. the number of retries for HTM usage, which may be omitted (default value 5)
+
+3. the retry policy to adopt in case of HTM capacity aborts, i.e., how the number of retries is updated upon a capacity
+   abort, which may be omitted (possible values: 0, do not retry in htm and resort to the fallback path; 1, decrease by
+   one; 2, divide by two; default value 1)
+
+Hence, a common usage shall be: "bash build-all.sh htm-sgl 5 1"
+
+When running any benchmark, sudo privileges must be used, so that we may collect energy consumption metrics.
+
+There are scripts to help running the benchmarks. The main one is "run-all.sh", and then each benchmark suite contributes with a specialized script for its applications.
+Normally, only "run-all.sh" should be changed, in order to specify the number of runs, threads, benchmarks and backends used.
+These scripts also take care of building everything correctly.
+In case of a run time error during a benchmark, the error is logged into "auto-results/error.out".
+The runs' results are logged into "auto-results/".
+
+Compiling and running benchmarks should *not* create files that GIT deems as new ones. Such files should all be ignored by GIT and the repository should remain pristine.

@@ -1,0 +1,28 @@
+23.895598	0.000000
+Time = 23.895598
+Energy = 0.000000
+Total commits: 4194304
+	Read commits: 0
+	HTM commits:  72414
+	ROT commits:  25399
+	GL commits: 4096491
+Total aborts: 4114609
+	HTM conflict aborts:  11
+		HTM self aborts:  0
+		HTM trans aborts:  0
+		HTM non-trans aborts:  8
+	HTM user aborts :  1
+	HTM capacity aborts:  4096218
+		HTM persistent aborts:  4096218
+	HTM other aborts:  37
+	ROT conflict aborts:  0
+		ROT self aborts:  0
+		ROT trans aborts:  0
+		ROT non-trans aborts:  0
+	ROT user aborts:  0
+	ROT capacity aborts:  18335
+		ROT persistent aborts:  18335
+	ROT other aborts:  7
+lever 0: 162
+lever 1: 22263
+lever 2: 209

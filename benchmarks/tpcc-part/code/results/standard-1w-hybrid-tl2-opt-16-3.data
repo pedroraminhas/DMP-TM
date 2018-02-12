@@ -1,0 +1,46 @@
+TL2 system ready: GV=GV6
+memory per thread is 10240000000 out of 163840000000 for 16 threads
+page size is: 65536
+Loading 1 warehouses... num items: 1000001010 ms
+Running with the following parameters for 10 secs: (max warehouses 1)
+	Warehouses     (-w): 1
+	StockLevel ratio   (-s): 4
+	Delivery ratio     (-d): 4
+	Order Status ratio (-o): 4
+	Payment ratio      (-p): 87
+	NewOrder ratio     (-r): 1
+Running... 
+Executed the following txs types:
+	StockLevel : 0.04	37603
+	Delivery   : 0.04	37749
+	OrderStatus: 0.04	36253
+	Payment    : 0.87	807643
+	NewOrder   : 0.01	9295
+928543 transactions in 10004 ms = 92814.92 txns/s
+Time Elapsed: 10.004
+Throughput: 92814.92
+Txs: 928543
+TL2 system shutdown:
+  GCLOCK=0x10025FA7276 Starts=289570 Aborts=88151
+  Overflows: R=0 W=0 L=0
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 928543 
+	HTM commits: 815275 
+	SGL Commits: 0
+	STM commits: 113268 
+Total aborts: 121376893
+	HTM conficts: 17212401
+	Capacity aborts: 104066858
+	User aborts: 8170
+	Non-transactional aborts: 1114786
+	Other aborts: 1313
+	STM aborts: 88151
+STM System Calls: 0
+HTM System Calls: 0

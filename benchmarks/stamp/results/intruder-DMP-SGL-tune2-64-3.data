@@ -1,0 +1,31 @@
+
+865	11
+30.452697	0.000000
+Time = 30.452697
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428189 
+	HTM commits: 15821004 
+	SGL Commits: 10204
+	STM commits: 7596981 
+Total aborts: 59505757
+	HTM conficts: 8203287
+	Capacity aborts: 15820749
+	User aborts: 1118241
+	Non-transactional aborts: 2040511
+	Other aborts: 258
+	STM aborts: 34363222
+STM System Calls: 705301
+HTM System Calls: 651563
+tx 0 (0):	0
+tx 1 (1):	705741
+tx 2 (0):	651123
+tx 3 (0):	0
+tx 4 (0):	0

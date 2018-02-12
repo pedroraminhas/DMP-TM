@@ -1,0 +1,31 @@
+
+6589	23186
+46.956296	0.000000
+Time = 46.956296
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428126 
+	HTM commits: 19345918 
+	SGL Commits: 4070478
+	STM commits: 11730 
+Total aborts: 42095342
+	HTM conficts: 1215
+	Capacity aborts: 42093553
+	User aborts: 99
+	Non-transactional aborts: 8
+	Other aborts: 475
+	STM aborts: 0
+STM System Calls: 93
+HTM System Calls: 49
+tx 0 (0):	0
+tx 1 (0):	131
+tx 2 (0):	11
+tx 3 (0):	0
+tx 4 (0):	0

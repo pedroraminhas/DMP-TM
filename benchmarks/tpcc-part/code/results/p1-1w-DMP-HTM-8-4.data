@@ -1,0 +1,14 @@
+HTM heap: 67089693081600:67499293081600
+num elements: 409600000000
+memory per thread: 51200000000
+HTM first page: 67089693081600
+page size is: 65536
+Loading 1 warehouses... num items: 1000001047 ms
+Running with the following parameters for 10 secs: (max warehouses 1)
+	Warehouses     (-w): 1
+	StockLevel ratio   (-s): 1
+	Delivery ratio     (-d): 0
+	Order Status ratio (-o): 99
+	Payment ratio      (-p): 1
+	NewOrder ratio     (-r): 0
+==== ERROR: the sum of the ratios of tx types does not match 100: 101

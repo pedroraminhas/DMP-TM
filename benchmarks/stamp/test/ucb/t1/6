@@ -1,0 +1,30 @@
+summary	14.638062	0.000000
+Energy = 0.000000
+
+Time taken for all is 14.638062 sec.
+
+Total commits: 22362279
+	Read commits: 0
+	HTM commits:  22361354
+	ROT commits:  925
+	GL commits: 0
+Total aborts: 33
+	HTM conflict aborts:  8
+		HTM self aborts:  0
+		HTM trans aborts:  0
+		HTM non-trans aborts:  0
+	HTM user aborts :  1
+	HTM capacity aborts:  0
+		HTM persistent aborts:  0
+	HTM other aborts:  24
+	ROT conflict aborts:  0
+		ROT self aborts:  0
+		ROT trans aborts:  0
+		ROT non-trans aborts:  0
+	ROT user aborts:  0
+	ROT capacity aborts:  0
+		ROT persistent aborts:  0
+	ROT other aborts:  0
+lever 0: 13612
+lever 1: 103
+lever 2: 108

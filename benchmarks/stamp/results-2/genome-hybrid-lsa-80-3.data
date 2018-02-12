@@ -1,0 +1,27 @@
+memory per thread is 3072000000 out of 245760000000
+summary	36.378095	0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 20623868 
+	HTM commits: 15441502 
+	SGL Commits: 0
+	STM commits: 5182366 
+Total aborts: 101001536
+	HTM conficts: 38529549
+	Capacity aborts: 28353612
+	User aborts: 32340
+	Non-transactional aborts: 17520078
+	Orec aborts: 702
+	Other aborts: 0
+	STM aborts: 34085333
+STM System Calls: 0
+HTM System Calls: 0
+clock: 19808379
+Time = 36.378095
+Energy = 0.000000

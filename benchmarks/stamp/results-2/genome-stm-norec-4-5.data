@@ -1,0 +1,13 @@
+summary	30.458073	0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 20623811
+Number of aborts: 12411
+Time = 30.458073
+Energy = 0.000000

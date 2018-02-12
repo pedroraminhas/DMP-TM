@@ -1,0 +1,24 @@
+summary	18.084651	0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 5767299 
+	HTM commits: 130739 
+	SGL Commits: 7
+	STM commits: 5636553 
+Total aborts: 99372
+	HTM conficts: 1230
+	Capacity aborts: 700
+	User aborts: 23840
+	Non-transactional aborts: 31
+	Other aborts: 6
+	STM aborts: 73596
+STM System Calls: 53288
+HTM System Calls: 23823
+Time = 18.084651
+Energy = 0.000000

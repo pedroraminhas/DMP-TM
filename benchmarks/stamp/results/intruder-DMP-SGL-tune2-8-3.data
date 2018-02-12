@@ -1,0 +1,31 @@
+
+27533	38371
+21.085100	0.000000
+Time = 21.085100
+Energy = 0.000000
+Total lookup: 0
+	HTM lookup: 0
+	STM lookup: 0
+	STM small lookup 0
+Total inserts: 0
+	HTM insert: 0
+	STM inser: 0
+	STM small insert: 0
+Total commits: 23428133 
+	HTM commits: 18830023 
+	SGL Commits: 4555780
+	STM commits: 42330 
+Total aborts: 56504611
+	HTM conficts: 30135336
+	Capacity aborts: 25840296
+	User aborts: 520017
+	Non-transactional aborts: 25879506
+	Other aborts: 497
+	STM aborts: 8465
+STM System Calls: 291
+HTM System Calls: 159
+tx 0 (0):	0
+tx 1 (0):	413
+tx 2 (0):	37
+tx 3 (0):	0
+tx 4 (0):	0

@@ -1,0 +1,35 @@
+6.802396	0.000000
+Elapsed time                    = 6.802
+Energy = 0.000000
+NOREC system shutdown:
+  Starts=2575796 Aborts=160259
+  Overflows: R=0 W=0 L=0
+Total commits: 2610328
+	Read commits: 0
+	HTM commits:  89341
+	ROT commits:  24594
+	STM commits: 2415537
+	GL commits: 80856
+Total aborts: 314187
+	HTM conflict aborts:  87185
+		HTM self aborts:  0
+		HTM trans aborts:  36600
+		HTM non-trans aborts:  50575
+	HTM user aborts :  373
+	HTM capacity aborts:  22267
+		HTM persistent aborts:  22267
+	HTM other aborts:  32
+	ROT conflict aborts:  33391
+		ROT self aborts:  0
+		ROT trans aborts:  1304
+		ROT non-trans aborts:  32086
+	ROT user aborts:  0
+	ROT capacity aborts:  10625
+		ROT persistent aborts:  10625
+	ROT other aborts:  55
+	STM aborts: 160259
+lever 0: 139
+lever 1: 265
+lever 2: 128
+lever 3: 1985
+lever 4: 3906
